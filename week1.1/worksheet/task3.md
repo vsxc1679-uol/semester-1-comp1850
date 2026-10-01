@@ -1,0 +1,5 @@
+1) One advantage of version control through git is that if you end up pushing some code that ends up not working or breaking unexpectedly then you can roll back to previous versions meaning you haven't lost your work completely. In a team this is just as true as someone could push their code without pulling your latest code thus overrinding your code and losing it completely. Version control will mean you can check your previous work and it's not lost even if you didnt save it locally.
+
+Another benefit of version control is that you can keep notes of every change in your code so that if you need to go back or track how/when you changed something in the repository, you can. In a team this is equally important as when someone pushes their code you can see a brief message sent by them so that you know roughly what files they adjusted and where.
+
+2) A disadvantage to solo programmer is that you have to spend more time pushing, spending time on messages and learning how to use it all. In a team, a large disadvantage is that merge conflicts can occur, resulting in lost code and lots of hassle to resolve.
