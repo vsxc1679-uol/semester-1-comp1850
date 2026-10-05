@@ -15,5 +15,5 @@ except:
 annualTotal = monthly * 12
 print(f"You will have saved £{annualTotal} by the end of the year")
 finalAnnualTotal = annualTotal * 1.008
-print(f"With interest you would've saved £{finalAnnualTotal.2f}")
+print(f"With interest you would've saved £{finalAnnualTotal:.2f}")
 
