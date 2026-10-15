@@ -2,6 +2,15 @@
 
 L = int(input("Length of sequence: ")) # this should be your only input
 
+sequence = [0]
+k = 0
+while len(sequence) < L:
+    k = k + 1
+    nextItem = sequence[k-1] - k
+    if (nextItem < 0) or (nextItem in sequence):
+        nextItem = sequence[k-1] + k
+    sequence.append(nextItem)
+    
 
 # Your code for the Recaman Sequence
 # You should store the sequence in an appropriate data structure named 'sequence'
