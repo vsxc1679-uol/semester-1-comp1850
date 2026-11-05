@@ -18,10 +18,10 @@ class Person:
     def initials(self):
         """Returns Capitalised values in name"""
         i = 1
-        initials = self.name[0]
+        initials = self.name[0].upper()
         for i in range(1, len(self.name)):
             if self.name[i-1] == " ":
-                initials = initials + self.name[i]
+                initials = initials + self.name[i].upper()
         return initials
     def is_birthday(self):
         """Returns true if current date is birthday, else false"""
@@ -29,7 +29,7 @@ class Person:
             return True
         else:
             return False
-"""Freddie = Person("Freddie Ash", date.today())
+"""Freddie = Person("freddie ash money", date.today())
 print(Freddie.is_birthday())
 print(Freddie.initials())"""
     # Implement methods initials() and is_birthday() here
