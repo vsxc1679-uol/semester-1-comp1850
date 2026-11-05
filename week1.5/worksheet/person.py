@@ -1,7 +1,6 @@
 # Worksheet 1.5: Person class
 
 from datetime import date
-print(date.today().day)
 class Person:
     """
     A Person, with a name and a date of birth.
@@ -30,8 +29,8 @@ class Person:
             return True
         else:
             return False
-Freddie = Person("Freddie Ash", date.today())
+"""Freddie = Person("Freddie Ash", date.today())
 print(Freddie.is_birthday())
-print(Freddie.initials())
+print(Freddie.initials())"""
     # Implement methods initials() and is_birthday() here
     # (see README.md for further details)

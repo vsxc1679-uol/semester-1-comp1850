@@ -30,5 +30,5 @@ class Rectangle:
         return ((self.width * 2) + (self.height * 2))
     # Implement methods is_square(), area() & perimeter() here
     # (See README.md for details of what they should do)
-James = Rectangle(10,10)
-print(James.area())
+"""James = Rectangle(10,10)
+print(James.area())"""
