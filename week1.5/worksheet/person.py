@@ -20,7 +20,7 @@ class Person:
         i = 1
         initials = self.name[0]
         for i in range(1, len(self.name)):
-            if self.name[i].isupper() and self.name[i-1] == " ":
+            if self.name[i-1] == " ":
                 initials = initials + self.name[i]
         return initials
     def is_birthday(self):
