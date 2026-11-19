@@ -6,10 +6,12 @@
     other than any provided template code, was written and developed by
     you independently.
 
-    Name:
+    Name: Freddie
 """
 
 def currency_converter(amount, from_currency, to_currency):
+    """Converts value of money in one currency to it's value in another
+        *returns* float rounded to 2dp"""
     if amount <= 0:
         return 0
     conversion_rate = {

@@ -17,16 +17,16 @@ class Rectangle:
         self.width = width
         self.height = height    
     def is_square(self):
-        """ If square return True, otherwise False """
+        """ If square *return* True, otherwise False """
         if self.width == self.height:
             return True
         else:
             return False
     def area(self):
-        """ Returns area of object as int """
+        """ *Returns* area of object as *int* """
         return (self.width*self.height)
     def perimeter(self):
-        """Return perimeter of object as int"""
+        """*Return* perimeter of object as *int*"""
         return ((self.width * 2) + (self.height * 2))
     # Implement methods is_square(), area() & perimeter() here
     # (See README.md for details of what they should do)
