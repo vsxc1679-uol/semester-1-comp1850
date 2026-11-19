@@ -5,21 +5,21 @@ Name:
 """
 import sys
 states = { "red":4, "red_amber":3, "green":5, "amber":3 }
-cycle = ["red","red_amber","green","amber","red"]
+cycle = ["red","red_amber","green","amber","red"] #list of order the lights should take
 
 systime = 0
 maxtime = int(input())  # read an integer number of steps (>0)
 
 state = "red"
 
-while systime <= (maxtime + 1):
+while systime <= (maxtime + 1): #loop for every step up until inputted amount
     for i in range(0,states[state]):
         print(f"Time {systime:03} State {state}")
         if systime != maxtime:
             systime = systime + 1
         else:
             sys.exit()
-    state = cycle[cycle.index(state) + 1]
+    state = cycle[cycle.index(state) + 1] #changes state to next in traffic light order
 
 
 #print(f"Time {systime:03} State {state}")
